@@ -1,0 +1,5 @@
+{{ if .IsHome -}}
+<title>{{ .Site.Title }}</title>
+{{- else -}}
+<title>{{ .Title }} &middot; {{ .Site.Title }}</title>
+{{- end }}
