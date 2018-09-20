@@ -6,3 +6,7 @@ draft: false
 
 test
 alskdjf
+
+```js
+var a = 1;
+```

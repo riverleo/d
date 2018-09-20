@@ -1,4 +1,4 @@
-title = ""
-theme = "riverleo"
+title = "riverleo"
+theme = "hugo_theme_pickles"
 baseURL = "https://rkdehddnr.com/"
 languageCode = "ko-kr"
