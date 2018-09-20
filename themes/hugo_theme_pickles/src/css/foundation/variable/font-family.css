@@ -1,4 +1,4 @@
 :root {
-  --SanFrancisco: -apple-system,BlinkMacSystemFont,YakuHanJP,"Hiragino Kaku Gothic ProN",Meiryo,sans-serif;
-  --OpenSans: 'Open Sans', sans-serif;
+  --SanFrancisco: 'Noto Sans KR', -apple-system, BlinkMacSystemFont, YakuHanJP, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  --OpenSans: 'Noto Sans KR', 'Open Sans', sans-serif;
 }

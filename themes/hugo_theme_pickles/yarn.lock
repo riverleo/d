@@ -7068,6 +7068,6 @@ yauzl@^2.2.1:
     buffer-crc32 "~0.2.3"
     fd-slicer "~1.1.0"
 
-"zoom.js@https://github.com/fat/zoom.js/":
+"zoom.js@https://github.com/fat/zoom.js.git":
   version "0.0.3"
-  resolved "https://github.com/fat/zoom.js/#8dfa215d02e156f85209dd52c4c9781af2c852ec"
+  resolved "https://github.com/fat/zoom.js.git#8dfa215d02e156f85209dd52c4c9781af2c852ec"

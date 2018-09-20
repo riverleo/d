@@ -2,3 +2,5 @@ title = "riverleo"
 theme = "hugo_theme_pickles"
 baseURL = "https://rkdehddnr.com/"
 languageCode = "ko-kr"
+pygmentsStyle = "tango"
+pygmentsCodeFences = true
