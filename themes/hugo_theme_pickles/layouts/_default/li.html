@@ -9,9 +9,8 @@
     </p>
   </header>
   <div class="c-article__summary">
-    {{ .Summary | plainify | safeHTML }}
+    {{ substr .Summary 0 195 | plainify | safeHTML }} ...
   </div>
   {{ if .Truncated }}
-  <a href="{{ .Permalink }}" class="c-article__btn p-list-article__btn">Read more</a>
   {{ end }}
 </article>

@@ -17,7 +17,7 @@
   <meta property="og:site_name" content="{{ .Site.Title }}" />
   <meta property="og:url" content="{{ .Permalink }}" />
 
-  {{ with .Params.thumbnail }}
+  {{ with .Site.Params.thumbnail }}
   <meta property="og:image" content="{{ . | absURL }}" />
   <meta name="twitter:image" content="{{ . | absURL }}" />
   {{ end }}
@@ -38,7 +38,7 @@
   {{ end }}
   <!-- Hugo Version number -->
   {{ .Hugo.Generator -}}
-  <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:400,700&amp;subset=korean" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:400,700&amp;subset=korean" />
   <link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.css" />
   {{- with .Site.Params.favicon }}
   <link rel='icon' type='image/x-icon' href="{{ . | absURL }}" />

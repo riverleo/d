@@ -4,3 +4,9 @@ baseURL = "https://rkdehddnr.com/"
 languageCode = "ko-kr"
 pygmentsStyle = "tango"
 pygmentsCodeFences = true
+
+[params]
+  author = "riverleo"
+  facebook = "happenstantial"
+  subtitle = "주로 React, NodeJS, Golang 등에 대해 글을 씁니다."
+  thumbnail = "https://rkdehddnr.com/logo.png"
