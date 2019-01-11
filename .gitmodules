@@ -1,0 +1,4 @@
+[submodule "public"]
+	path = public
+	url = git@github.com:riverleo/riverleo.github.io.git
+	branch = master
