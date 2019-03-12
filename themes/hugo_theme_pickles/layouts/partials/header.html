@@ -2,6 +2,10 @@
 <html lang="{{ .Site.LanguageCode }}">
 {{ partial "head.html" . }}
 <body>
+  <!-- Facebook Plugins -->
+  <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/ko_KR/sdk.js#xfbml=1&version=v3.2&appId=341661026444200&autoLogAppEvents=1"></script>
+
   <a href="#main" class="skip-link p-screen-reader-text">Skip to content</a>
   {{ partial "svgpack-sprite.html" . }}
   <header class="l-header">
