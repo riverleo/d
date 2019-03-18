@@ -9,6 +9,10 @@ hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
 
 # Go To Public folder
 cd public
+
+git init
+git remote add origin git@github.com:riverleo/riverleo.github.io.git
+
 # Add changes to git.
 git add .
 
